@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("btn1").click(function() {
+                $("h1,p,h5").addClass("style")
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <h1 class="style">JQuery</h1>
+    <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, ...</p>
+    <p>jQuery is a JavaScript Library.</p>
+
+    <p class="style">jQuery greatly simplifies JavaScript programming.</p>
+
+
+    <h5>jQuery is easy to learn.</h5>
+
+</body>
+<style>
+    .style {
+        color: greenyellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+
+</html>

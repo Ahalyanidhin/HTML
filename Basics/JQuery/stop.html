@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $("#start").click(function() {
+                $("#div2").slideDown(6000);
+            })
+
+            $("#stop").click(function() {
+                $("#div2").stop();
+            })
+        })
+    </script>
+</head>
+
+<body><button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <div id="div2" style="background-color: darkgreen; width: 350px;height: 150px;position: relative;opacity: 0.2;display: none;">hi</div>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+body {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.header {
+    background-color: red;
+    width: 1326px;
+    height: 250px;
+    border-top: 40px;
+    margin-right: 10px;
+    float: auto;
+    border: 2px solid black;
+}
+
+#hlogo {
+    background-color: skyblue;
+    width: 260px;
+    height: 100px;
+    margin-left: 20px;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+#hmain {
+    background-color: rgb(243, 46, 233);
+    margin-left: 350px;
+    margin-right: 20px;
+    height: 110px;
+    /* position: relative;
+    align-self: start; */
+}
+
+#hbody {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 70px;
+}
+
+#toolbar {
+    background-color: rgb(161, 161, 161);
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+}
+
+#tbody {
+    background-color: honeydew;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.nav {
+    background-color: aqua;
+    float: left;
+    padding: 5px;
+    width: 280px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#nav-main {
+    background-color: rgb(44, 212, 44);
+    width: 210px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+#nav-ads {
+    background-color: rgb(44, 212, 44);
+    width: 210px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px thin black;
+}
+
+#nmtitle {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#nmbody {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#natitle {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#nabody {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.content {
+    background-color: blue;
+    width: 1010px;
+    height: 310px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#content-info {
+    background-color: rgb(44, 212, 44);
+    width: 965px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#content-main {
+    background-color: rgb(252, 30, 204);
+    width: 965px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#cititle {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cibody {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#cmtitle {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cmbody {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#breadcrumb {
+    background-color: whitesmoke;
+    margin-left: 20px;
+    width: 965px;
+    height: 55px;
+}
+
+#bcselect {
+    background-color: rgb(44, 212, 44);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footers {
+    background-color: red;
+    width: 1326px;
+    height: 80px;
+    float: left;
+    margin-top: 20px;
+}
+
+#ftitle {
+    background-color: whitesmoke;
+    width: 1290px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+#fbody {
+    background-color: whitesmoke;
+    width: 1290px;
+    height: 20px;
+    margin-top: 20px;
+}
